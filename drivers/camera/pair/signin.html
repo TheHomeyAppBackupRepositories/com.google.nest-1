@@ -1,0 +1,38 @@
+<style type="text/css">
+  .signin-with-google-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .signin-with-google {
+    width: 193px;
+    height: 48px;
+    background: url(./signin.svg) no-repeat 0 0;
+    cursor: pointer;
+  }
+
+  .signin-with-google:hover {
+    background-position: 0 -48px;
+  }
+
+  .signin-with-google:active {
+    background-position: 0 -96px;
+  }
+</style>
+
+<script type="text/javascript">
+  Homey.showLoadingOverlay();
+  Homey.emit('isAuthenticated').then(isAuthenticated => {
+    Homey.hideLoadingOverlay();
+    if (isAuthenticated) Homey.nextView();
+  });
+</script>
+
+<div class="signin-with-google-wrap">
+  <p data-i18n="pair.signin"></p>
+  <div class="signin-with-google" onclick="Homey.nextView();"></div>
+</div>

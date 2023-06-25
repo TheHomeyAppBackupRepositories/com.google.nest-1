@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>drivers/thermostat/assets/icon</title>
+    <g id="/drivers/thermostat/assets/icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="com.google.nest/drivers/display/assets/icon" stroke="#000000">
+            <ellipse id="Oval" stroke-width="12.5" stroke-linecap="round" cx="326.258103" cy="300.612317" rx="218.565037" ry="249.083991"></ellipse>
+            <ellipse id="Oval" stroke-width="12.5" stroke-linecap="round" cx="332.57158" cy="301.845406" rx="161.226395" ry="180.031003"></ellipse>
+            <ellipse id="Oval-Copy" stroke-width="12.5" stroke-linecap="round" cx="326.566375" cy="300.304045" rx="237.986189" ry="264.805877"></ellipse>
+            <ellipse id="Oval-Copy" stroke-width="25" cx="296.047421" cy="299.6875" rx="273.606609" ry="285.9375"></ellipse>
+        </g>
+    </g>
+</svg>

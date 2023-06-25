@@ -1,0 +1,19 @@
+{
+  "name": "com.google.nest",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">12"
+  },
+  "devDependencies": {
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.2.2",
+    "eslint": "^8.0.1",
+    "eslint-config-athom": "^3.0.0"
+  },
+  "dependencies": {
+    "homey-oauth2app": "^3.3.0"
+  }
+}
