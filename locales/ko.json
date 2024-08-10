@@ -1,0 +1,8 @@
+{
+  "pair": {
+    "signin": "계속하려면 Google 계정으로 로그인하세요."
+  },
+  "thermostat": {
+    "mode_not_supported": "온도 조절기가 이 모드를 지원하지 않습니다."
+  }
+}

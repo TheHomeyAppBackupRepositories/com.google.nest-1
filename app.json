@@ -1,14 +1,36 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.google.nest",
-  "version": "0.8.0",
+  "version": "0.10.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "Google Nest"
+    "en": "Google Nest",
+    "nl": "Google Nest",
+    "da": "Google Nest",
+    "de": "Google Nest",
+    "es": "Google Nest",
+    "fr": "Google Nest",
+    "it": "Google Nest",
+    "no": "Google Nest",
+    "sv": "Google Nest",
+    "pl": "Google Nest",
+    "ru": "Google Nest",
+    "ko": "Google Nest"
   },
   "description": {
-    "en": "Build your helpful home."
+    "en": "Build your helpful home.",
+    "nl": "Bouw je behulpzame huis.",
+    "da": "Byg dit hjælpsomme hjem.",
+    "de": "Bauen Sie Ihr hilfreiches Zuhause.",
+    "es": "Construye tu hogar útil.",
+    "fr": "Construisez votre maison utile.",
+    "it": "Costruisci la tua casa utile.",
+    "no": "Bygg ditt hjelpsomme hjem.",
+    "sv": "Bygg ditt hjälpsamma hem.",
+    "pl": "Zbuduj swój pomocny dom.",
+    "ru": "Постройте свой полезный дом.",
+    "ko": "도움이 되는 집을 지으세요."
   },
   "category": [
     "climate"
@@ -32,14 +54,50 @@
       {
         "id": "camera_motion",
         "title": {
-          "en": "Motion was detected"
+          "en": "Motion was detected",
+          "nl": "Beweging gedetecteerd",
+          "da": "Bevægelse blev registreret",
+          "de": "Bewegung erkannt",
+          "es": "Se detectó movimiento",
+          "fr": "Mouvement détecté",
+          "it": "Rilevato movimento",
+          "no": "Bevegelse oppdaget",
+          "sv": "Rörelse upptäcktes",
+          "pl": "Wykryto ruch",
+          "ru": "Обнаружено движение",
+          "ko": "동작이 감지되었습니다"
+        },
+        "hint": {
+          "en": "An image will only be available if it was provided by the device.",
+          "nl": "Een afbeelding is alleen beschikbaar als het is verstrekt door het apparaat.",
+          "da": "Et billede vil kun være tilgængeligt, hvis det blev leveret af enheden.",
+          "de": "Ein Bild ist nur verfügbar, wenn es vom Gerät bereitgestellt wurde.",
+          "es": "Una imagen solo estará disponible si fue proporcionada por el dispositivo.",
+          "fr": "Une image ne sera disponible que si elle est fournie par le dispositif.",
+          "it": "Un'immagine sarà disponibile solo se fornita dal dispositivo.",
+          "no": "Et bilde vil bare være tilgjengelig hvis det ble levert av enheten.",
+          "sv": "En bild kommer endast att vara tillgänglig om den tillhandahålls av enheten.",
+          "pl": "Obraz będzie dostępny tylko wtedy, gdy został dostarczony przez urządzenie.",
+          "ru": "Изображение будет доступно только в случае, если оно предоставлено устройством.",
+          "ko": "장치에서 제공한 경우에만 이미지가 제공됩니다."
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -54,14 +112,50 @@
       {
         "id": "camera_person",
         "title": {
-          "en": "A person was detected"
+          "en": "A person was detected",
+          "nl": "Een persoon gedetecteerd",
+          "da": "En person blev registreret",
+          "de": "Person erkannt",
+          "es": "Se detectó una persona",
+          "fr": "Personne détectée",
+          "it": "Rilevata persona",
+          "no": "Person oppdaget",
+          "sv": "En person upptäcktes",
+          "pl": "Wykryto osobę",
+          "ru": "Обнаружен человек",
+          "ko": "사람이 감지되었습니다"
+        },
+        "hint": {
+          "en": "An image will only be available if it was provided by the device.",
+          "nl": "Een afbeelding is alleen beschikbaar als het is verstrekt door het apparaat.",
+          "da": "Et billede vil kun være tilgængeligt, hvis det blev leveret af enheden.",
+          "de": "Ein Bild ist nur verfügbar, wenn es vom Gerät bereitgestellt wurde.",
+          "es": "Una imagen solo estará disponible si fue proporcionada por el dispositivo.",
+          "fr": "Une image ne sera disponible que si elle est fournie par le dispositif.",
+          "it": "Un'immagine sarà disponibile solo se fornita dal dispositivo.",
+          "no": "Et bilde vil bare være tilgjengelig hvis det ble levert av enheten.",
+          "sv": "En bild kommer endast att vara tillgänglig om den tillhandahålls av enheten.",
+          "pl": "Obraz będzie dostępny tylko wtedy, gdy został dostarczony przez urządzenie.",
+          "ru": "Изображение будет доступно только в случае, если оно предоставлено устройством.",
+          "ko": "장치에서 제공한 경우에만 이미지가 제공됩니다."
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -76,14 +170,50 @@
       {
         "id": "camera_sound",
         "title": {
-          "en": "Sound was detected"
+          "en": "Sound was detected",
+          "nl": "Geluid gedetecteerd",
+          "da": "Lyd blev registreret",
+          "de": "Ton erkannt",
+          "es": "Se detectó sonido",
+          "fr": "Son détecté",
+          "it": "Rilevato suono",
+          "no": "Lyd oppdaget",
+          "sv": "Ljud upptäcktes",
+          "pl": "Wykryto dźwięk",
+          "ru": "Обнаружен звук",
+          "ko": "소리가 감지되었습니다"
+        },
+        "hint": {
+          "en": "An image will only be available if it was provided by the device. \nNot all devices support this Flowcard.",
+          "nl": "Een afbeelding is alleen beschikbaar als deze door het apparaat is geleverd. \nNiet alle apparaten ondersteunen deze Flowcard.",
+          "da": "Et billede vil kun være tilgængeligt, hvis det blev leveret af enheden. \nIkke alle enheder understøtter dette Flowcard.",
+          "de": "Ein Bild ist nur verfügbar, wenn es vom Gerät bereitgestellt wurde. \nNicht alle Geräte unterstützen diese Flowcard.",
+          "es": "Una imagen solo estará disponible si fue proporcionada por el dispositivo. \nNo todos los dispositivos son compatibles con esta Flowcard.",
+          "fr": "Une image ne sera disponible que si elle est fournie par le dispositif. \nTous les dispositifs ne prennent pas en charge cette Flowcard.",
+          "it": "Un'immagine sarà disponibile solo se fornita dal dispositivo. \nNon tutti i dispositivi supportano questa Flowcard.",
+          "no": "Et bilde vil bare være tilgjengelig hvis det ble levert av enheten. \nIkke alle enheter støtter dette Flowcard.",
+          "sv": "En bild kommer endast att vara tillgänglig om den tillhandahålls av enheten. \nAlla enheter stöder inte denna Flowcard.",
+          "pl": "Obraz będzie dostępny tylko wtedy, gdy został dostarczony przez urządzenie. \nNie wszystkie urządzenia obsługują tę kartę przepływu.",
+          "ru": "Изображение будет доступно только в случае, если оно предоставлено устройством. \nНе все устройства поддерживают эту Flowcard.",
+          "ko": "장치에서 제공한 경우에만 이미지가 제공됩니다. \n모든 장치가 이 플로카드를 지원하는 것은 아닙니다."
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -98,14 +228,36 @@
       {
         "id": "display_motion",
         "title": {
-          "en": "Motion was detected"
+          "en": "Motion was detected",
+          "nl": "Beweging werd gedetecteerd",
+          "da": "Bevægelse blev registreret",
+          "de": "Bewegung wurde erkannt",
+          "es": "Se detectó movimiento",
+          "fr": "Mouvement détecté",
+          "it": "Movimento rilevato",
+          "no": "Bevegelse ble oppdaget",
+          "sv": "Rörelse upptäcktes",
+          "pl": "Wykryto ruch",
+          "ru": "Обнаружено движение",
+          "ko": "움직임이 감지되었습니다"
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Snapshot",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istante",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -120,14 +272,36 @@
       {
         "id": "display_person",
         "title": {
-          "en": "A person was detected"
+          "en": "A person was detected",
+          "nl": "Een persoon werd gedetecteerd",
+          "da": "En person blev registreret",
+          "de": "Eine Person wurde erkannt",
+          "es": "Se detectó una persona",
+          "fr": "Une personne a été détectée",
+          "it": "Una persona è stata rilevata",
+          "no": "En person ble oppdaget",
+          "sv": "En person upptäcktes",
+          "pl": "Wykryto osobę",
+          "ru": "Обнаружен человек",
+          "ko": "사람이 감지되었습니다"
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Snapshot",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istante",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -142,14 +316,36 @@
       {
         "id": "display_sound",
         "title": {
-          "en": "Sound was detected"
+          "en": "Sound was detected",
+          "nl": "Geluid werd gedetecteerd",
+          "da": "Lyd blev registreret",
+          "de": "Geräusch wurde erkannt",
+          "es": "Se detectó un sonido",
+          "fr": "Un son a été détecté",
+          "it": "Suono rilevato",
+          "no": "Lyd ble oppdaget",
+          "sv": "Ljud upptäcktes",
+          "pl": "Wykryto dźwięk",
+          "ru": "Обнаружен звук",
+          "ko": "소리가 감지되었습니다"
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Snapshot",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istante",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -164,14 +360,36 @@
       {
         "id": "doorbell_chime",
         "title": {
-          "en": "The doorbell rang"
+          "en": "The doorbell rang",
+          "nl": "De deurbel ging",
+          "da": "Dørklokken ringede",
+          "de": "Die Türklingel hat geläutet",
+          "es": "Sonó el timbre",
+          "fr": "La sonnette a retenti",
+          "it": "Il campanello ha suonato",
+          "no": "Dørklokken ringte",
+          "sv": "Dörrklockan ringde",
+          "pl": "Dzwonek zadzwonił",
+          "ru": "Дверной звонок прозвенел",
+          "ko": "초인종이 울렸습니다"
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -186,14 +404,36 @@
       {
         "id": "doorbell_motion",
         "title": {
-          "en": "Motion was detected"
+          "en": "Motion was detected",
+          "nl": "Beweging gedetecteerd",
+          "da": "Bevægelse blev registreret",
+          "de": "Bewegung wurde erkannt",
+          "es": "Se detectó movimiento",
+          "fr": "Mouvement détecté",
+          "it": "Rilevato movimento",
+          "no": "Bevegelse ble oppdaget",
+          "sv": "Rörelse upptäcktes",
+          "pl": "Wykryto ruch",
+          "ru": "Обнаружено движение",
+          "ko": "움직임이 감지되었습니다"
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -208,14 +448,36 @@
       {
         "id": "doorbell_person",
         "title": {
-          "en": "A person was detected"
+          "en": "A person was detected",
+          "nl": "Een persoon gedetecteerd",
+          "da": "En person blev registreret",
+          "de": "Eine Person wurde erkannt",
+          "es": "Se detectó una persona",
+          "fr": "Une personne a été détectée",
+          "it": "Rilevata una persona",
+          "no": "En person ble oppdaget",
+          "sv": "En person upptäcktes",
+          "pl": "Wykryto osobę",
+          "ru": "Обнаружен человек",
+          "ko": "사람이 감지되었습니다"
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -230,14 +492,50 @@
       {
         "id": "doorbell_sound",
         "title": {
-          "en": "Sound was detected"
+          "en": "Sound was detected",
+          "nl": "Geluid gedetecteerd",
+          "da": "Lyd blev registreret",
+          "de": "Geräusch wurde erkannt",
+          "es": "Se detectó un sonido",
+          "fr": "Un son a été détecté",
+          "it": "Rilevato suono",
+          "no": "Lyd ble oppdaget",
+          "sv": "Ljud upptäcktes",
+          "pl": "Wykryto dźwięk",
+          "ru": "Обнаружен звук",
+          "ko": "소리가 감지되었습니다"
+        },
+        "hint": {
+          "en": "Not all devices support this Flowcard.",
+          "nl": "Niet alle apparaten ondersteunen deze Flowcard.",
+          "da": "Ikke alle enheder understøtter dette Flowcard.",
+          "de": "Nicht alle Geräte unterstützen diese Flowcard.",
+          "es": "No todos los dispositivos soportan esta Flowcard.",
+          "fr": "Tous les appareils ne prennent pas en charge cette Flowcard.",
+          "it": "Non tutti i dispositivi supportano questa Flowcard.",
+          "no": "Ikke alle enheter støtter dette Flowcard.",
+          "sv": "Alla enheter stöder inte detta Flowcard.",
+          "pl": "Nie wszystkie urządzenia obsługują tę Flowcard.",
+          "ru": "Не все устройства поддерживают эту Flowcard.",
+          "ko": "모든 장치가 이 Flowcard를 지원하는 것은 아닙니다."
         },
         "tokens": [
           {
             "name": "image",
             "type": "image",
             "title": {
-              "en": "Snapshot"
+              "en": "Snapshot",
+              "nl": "Momentopname",
+              "da": "Øjebliksbillede",
+              "de": "Schnappschuss",
+              "es": "Instantánea",
+              "fr": "Instantané",
+              "it": "Istantanea",
+              "no": "Øyeblikksbilde",
+              "sv": "Ögonblicksbild",
+              "pl": "Migawka",
+              "ru": "Снимок",
+              "ko": "스냅샷"
             }
           }
         ],
@@ -254,10 +552,32 @@
       {
         "id": "nest_thermostat_mode_equals",
         "title": {
-          "en": "The thermostat mode is..."
+          "en": "The thermostat mode is...",
+          "nl": "De thermostaatmodus is...",
+          "da": "Termostattilstanden er...",
+          "de": "Der Thermostatmodus ist...",
+          "es": "El modo del termostato es...",
+          "fr": "Le mode du thermostat est...",
+          "it": "La modalità del termostato è...",
+          "no": "Termostatmodus er...",
+          "sv": "Termostatläget är...",
+          "pl": "Tryb termostatu to...",
+          "ru": "Режим термостата -...",
+          "ko": "온도 조절기 모드가..."
         },
         "titleFormatted": {
-          "en": "The thermostat mode !{{is|is not}} [[mode]]"
+          "en": "The thermostat mode !{{is|is not}} [[mode]]",
+          "nl": "De thermostaatmodus !{{is|is niet}} [[mode]]",
+          "da": "Termostattilstanden !{{er|er ikke}} [[mode]]",
+          "de": "Der Thermostatmodus ist !{{ist|ist nicht}} [[mode]]",
+          "es": "El modo del termostato !{{es|no es}} [[mode]]",
+          "fr": "Le mode du thermostat !{{est|n'est pas}} [[mode]]",
+          "it": "La modalità del termostato !{{è|non è}} [[mode]]",
+          "no": "Termostatmodus !{{er|er ikke}} [[mode]]",
+          "sv": "Termostatläget !{{är|är inte}} [[mode]]",
+          "pl": "Tryb termostatu !{{jest|nie jest}} [[mode]]",
+          "ru": "Режим термостата !{{есть|нет}} [[mode]]",
+          "ko": "온도 조절기 모드가 !{{입니다|아닙니다}} [[mode]]"
         },
         "args": [
           {
@@ -269,31 +589,86 @@
             "name": "mode",
             "type": "dropdown",
             "title": {
-              "en": "Mode"
+              "en": "Mode",
+              "nl": "Modus",
+              "da": "Tilstand",
+              "de": "Modus",
+              "es": "Modo",
+              "fr": "Mode",
+              "it": "Modalità",
+              "no": "Modus",
+              "sv": "Läge",
+              "pl": "Tryb",
+              "ru": "Режим",
+              "ko": "모드"
             },
             "values": [
               {
                 "id": "off",
                 "title": {
-                  "en": "Off"
+                  "en": "Off",
+                  "nl": "Uit",
+                  "da": "Fra",
+                  "de": "Aus",
+                  "es": "Apagado",
+                  "fr": "Éteint",
+                  "it": "Spento",
+                  "no": "Av",
+                  "sv": "Av",
+                  "pl": "Wył.",
+                  "ru": "Выкл.",
+                  "ko": "끔"
                 }
               },
               {
                 "id": "heat",
                 "title": {
-                  "en": "Heat"
+                  "en": "Heat",
+                  "nl": "Verwarmen",
+                  "da": "Varme",
+                  "de": "Heizen",
+                  "es": "Calor",
+                  "fr": "Chaleur",
+                  "it": "Riscaldare",
+                  "no": "Varme",
+                  "sv": "Värme",
+                  "pl": "Ogrzać",
+                  "ru": "Тепло",
+                  "ko": "난방"
                 }
               },
               {
                 "id": "cool",
                 "title": {
-                  "en": "Cool"
+                  "en": "Cool",
+                  "nl": "Koelen",
+                  "da": "Kølig",
+                  "de": "Kühlen",
+                  "es": "Fresco",
+                  "fr": "Frais",
+                  "it": "Fresco",
+                  "no": "Kjølig",
+                  "sv": "Kylig",
+                  "pl": "Chłodny",
+                  "ru": "Прохладно",
+                  "ko": "냉방"
                 }
               },
               {
                 "id": "heatcool",
                 "title": {
-                  "en": "Heat + Cool"
+                  "en": "Heat + Cool",
+                  "nl": "Warm + Koud",
+                  "da": "Varm + Kølig",
+                  "de": "Heizen + Kühlen",
+                  "es": "Calor + Fresco",
+                  "fr": "Chaleur + Frais",
+                  "it": "Riscaldare + Fresco",
+                  "no": "Varme + Kjølig",
+                  "sv": "Värme + Kylig",
+                  "pl": "Ciepło + Chłodny",
+                  "ru": "Тепло + Прохладно",
+                  "ko": "난방 + 냉방"
                 }
               }
             ]
@@ -303,10 +678,32 @@
       {
         "id": "nest_thermostat_eco_enabled",
         "title": {
-          "en": "Eco-mode is enabled"
+          "en": "Eco-mode is enabled",
+          "nl": "Eco-modus is ingeschakeld",
+          "da": "Eco-tilstand er aktiveret",
+          "de": "Eco-Modus ist aktiviert",
+          "es": "El modo Eco está habilitado",
+          "fr": "Le mode Éco est activé",
+          "it": "La modalità Eco è attivata",
+          "no": "Eco-modus er aktivert",
+          "sv": "Eco-läge är aktiverat",
+          "pl": "Tryb eko jest włączony",
+          "ru": "Эко-режим включен",
+          "ko": "에코 모드가 활성화됨"
         },
         "titleFormatted": {
-          "en": "Eco-mode is !{{enabled|disabled}}"
+          "en": "Eco-mode is !{{enabled|disabled}}",
+          "nl": "Eco-modus !{{is ingeschakeld|is uitgeschakeld}}",
+          "da": "Eco-tilstand er !{{aktiveret|deaktiveret}}",
+          "de": "Eco-Modus ist !{{aktiviert|deaktiviert}}",
+          "es": "El modo Eco está !{{habilitado|deshabilitado}}",
+          "fr": "Le mode Éco est !{{activé|désactivé}}",
+          "it": "La modalità Eco è !{{attivata|disattivata}}",
+          "no": "Eco-modus er !{{aktivert|deaktivert}}",
+          "sv": "Eco-läge är !{{aktiverat|avaktiverat}}",
+          "pl": "Tryb eko !{{jest włączony|jest wyłączony}}",
+          "ru": "Эко-режим !{{включен|выключен}}",
+          "ko": "에코 모드가 !{{활성화됨|비활성화됨}}"
         },
         "args": [
           {
@@ -321,7 +718,18 @@
       {
         "id": "enable_nest_thermostat_eco",
         "title": {
-          "en": "Enable Eco-mode"
+          "en": "Enable Eco-mode",
+          "nl": "Eco-modus inschakelen",
+          "da": "Aktiver Eco-tilstand",
+          "de": "Eco-Modus aktivieren",
+          "es": "Habilitar modo Eco",
+          "fr": "Activer le mode Éco",
+          "it": "Attivare la modalità Eco",
+          "no": "Aktiver Eco-modus",
+          "sv": "Aktivera Eco-läge",
+          "pl": "Włącz tryb eko",
+          "ru": "Включить эко-режим",
+          "ko": "에코 모드 활성화"
         },
         "args": [
           {
@@ -334,7 +742,18 @@
       {
         "id": "disable_nest_thermostat_eco",
         "title": {
-          "en": "Disable Eco-mode"
+          "en": "Disable Eco-mode",
+          "nl": "Eco-modus uitschakelen",
+          "da": "Deaktiver Eco-tilstand",
+          "de": "Eco-Modus deaktivieren",
+          "es": "Deshabilitar modo Eco",
+          "fr": "Désactiver le mode Éco",
+          "it": "Disattivare la modalità Eco",
+          "no": "Deaktiver Eco-modus",
+          "sv": "Avaktivera Eco-läge",
+          "pl": "Wyłącz tryb eko",
+          "ru": "Выключить эко-режим",
+          "ko": "에코 모드 비활성화"
         },
         "args": [
           {
@@ -347,10 +766,32 @@
       {
         "id": "set_nest_thermostat_cool",
         "title": {
-          "en": "Set the cool temperature"
+          "en": "Set the cool temperature",
+          "nl": "Stel de koele temperatuur in",
+          "da": "Indstil den kølige temperatur",
+          "de": "Stellen Sie die Kühltemperatur ein",
+          "es": "Establezca la temperatura fresca",
+          "fr": "Régler la température fraîche",
+          "it": "Imposta la temperatura fresca",
+          "no": "Sett den kjølige temperaturen",
+          "sv": "Ställ in den svala temperaturen",
+          "pl": "Ustaw chłodną temperaturę",
+          "ru": "Установите прохладную температуру",
+          "ko": "냉방 온도 설정"
         },
         "titleFormatted": {
-          "en": "Set the cool temperature to [[temperature]]"
+          "en": "Set the cool temperature to [[temperature]]",
+          "nl": "Stel de koele temperatuur in op [[temperature]]",
+          "da": "Indstil den kølige temperatur til [[temperature]]",
+          "de": "Stellen Sie die Kühltemperatur auf [[temperature]] ein",
+          "es": "Establezca la temperatura fresca a [[temperature]]",
+          "fr": "Régler la température fraîche à [[temperature]]",
+          "it": "Imposta la temperatura fresca su [[temperature]]",
+          "no": "Sett den kjølige temperaturen til [[temperature]]",
+          "sv": "Ställ in den svala temperaturen till [[temperature]]",
+          "pl": "Ustaw chłodną temperaturę na [[temperature]]",
+          "ru": "Установите прохладную температуру на [[temperature]]",
+          "ko": "냉방 온도를 [[temperature]](으)로 설정"
         },
         "args": [
           {
@@ -360,7 +801,18 @@
           },
           {
             "title": {
-              "en": "Temperature"
+              "en": "Temperature",
+              "nl": "Temperatuur",
+              "da": "Temperatur",
+              "de": "Temperatur",
+              "es": "Temperatura",
+              "fr": "Température",
+              "it": "Temperatura",
+              "no": "Temperatur",
+              "sv": "Temperatur",
+              "pl": "Temperatura",
+              "ru": "Температура",
+              "ko": "온도"
             },
             "name": "temperature",
             "type": "range",
@@ -375,10 +827,32 @@
       {
         "id": "set_nest_thermostat_mode",
         "title": {
-          "en": "Set the thermostat mode"
+          "en": "Set the thermostat mode",
+          "nl": "Stel de thermostaatmodus in",
+          "da": "Indstil termostattilstanden",
+          "de": "Stellen Sie den Thermostatmodus ein",
+          "es": "Establezca el modo del termostato",
+          "fr": "Régler le mode du thermostat",
+          "it": "Imposta la modalità del termostato",
+          "no": "Sett termostatmodus",
+          "sv": "Ställ in termostatläget",
+          "pl": "Ustaw tryb termostatu",
+          "ru": "Установите режим термостата",
+          "ko": "온도 조절기 모드 설정"
         },
         "titleFormatted": {
-          "en": "Set the thermostat mode to [[mode]]"
+          "en": "Set the thermostat mode to [[mode]]",
+          "nl": "Stel de thermostaatmodus in op [[mode]]",
+          "da": "Indstil termostattilstanden til [[mode]]",
+          "de": "Stellen Sie den Thermostatmodus auf [[mode]] ein",
+          "es": "Establezca el modo del termostato a [[mode]]",
+          "fr": "Régler le mode du thermostat sur [[mode]]",
+          "it": "Imposta la modalità del termostato su [[mode]]",
+          "no": "Sett termostatmodus til [[mode]]",
+          "sv": "Ställ in termostatläget till [[mode]]",
+          "pl": "Ustaw tryb termostatu na [[mode]]",
+          "ru": "Установите режим термостата на [[mode]]",
+          "ko": "온도 조절기 모드를 [[mode]](으)로 설정"
         },
         "args": [
           {
@@ -390,31 +864,86 @@
             "name": "mode",
             "type": "dropdown",
             "title": {
-              "en": "mode"
+              "en": "mode",
+              "nl": "modus",
+              "da": "tilstand",
+              "de": "modus",
+              "es": "modo",
+              "fr": "mode",
+              "it": "modalità",
+              "no": "modus",
+              "sv": "läge",
+              "pl": "tryb",
+              "ru": "режим",
+              "ko": "모드"
             },
             "values": [
               {
                 "id": "off",
                 "title": {
-                  "en": "Off"
+                  "en": "Off",
+                  "nl": "Uit",
+                  "da": "Fra",
+                  "de": "Aus",
+                  "es": "Apagado",
+                  "fr": "Éteint",
+                  "it": "Spento",
+                  "no": "Av",
+                  "sv": "Av",
+                  "pl": "Wył.",
+                  "ru": "Выкл.",
+                  "ko": "끔"
                 }
               },
               {
                 "id": "heat",
                 "title": {
-                  "en": "Heat"
+                  "en": "Heat",
+                  "nl": "Verwarmen",
+                  "da": "Varme",
+                  "de": "Heizen",
+                  "es": "Calor",
+                  "fr": "Chaleur",
+                  "it": "Riscaldare",
+                  "no": "Varme",
+                  "sv": "Värme",
+                  "pl": "Ogrzać",
+                  "ru": "Тепло",
+                  "ko": "난방"
                 }
               },
               {
                 "id": "cool",
                 "title": {
-                  "en": "Cool"
+                  "en": "Cool",
+                  "nl": "Koelen",
+                  "da": "Kølig",
+                  "de": "Kühlen",
+                  "es": "Fresco",
+                  "fr": "Frais",
+                  "it": "Fresco",
+                  "no": "Kjølig",
+                  "sv": "Kylig",
+                  "pl": "Chłodny",
+                  "ru": "Прохладно",
+                  "ko": "냉방"
                 }
               },
               {
                 "id": "heatcool",
                 "title": {
-                  "en": "Heat + Cool"
+                  "en": "Heat + Cool",
+                  "nl": "Warm + Koud",
+                  "da": "Varm + Kølig",
+                  "de": "Heizen + Kühlen",
+                  "es": "Calor + Fresco",
+                  "fr": "Chaleur + Frais",
+                  "it": "Riscaldare + Fresco",
+                  "no": "Varme + Kjølig",
+                  "sv": "Värme + Kylig",
+                  "pl": "Ciepło + Chłodny",
+                  "ru": "Тепло + Прохладно",
+                  "ko": "난방 + 냉방"
                 }
               }
             ]
@@ -467,15 +996,48 @@
         "button.unlink_account": {
           "maintenanceAction": true,
           "title": {
-            "en": "Unlink Google Account"
+            "en": "Unlink Google Account",
+            "nl": "Google-account ontkoppelen",
+            "da": "Fjern Google-konto tilknytning",
+            "de": "Google-Konto entkoppeln",
+            "es": "Desvincular cuenta de Google",
+            "fr": "Dissocier le compte Google",
+            "it": "Scollega account Google",
+            "no": "Koble fra Google-konto",
+            "sv": "Koppla bort Google-konto",
+            "pl": "Odłącz konto Google",
+            "ru": "Отсоединить учетную запись Google",
+            "ko": "Google 계정 연결 해제"
           },
           "desc": {
-            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable."
+            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable.",
+            "nl": "Koppel je Google-account los van Homey. Dit zorgt ervoor dat alle Google Nest-apparaten niet meer beschikbaar zijn.",
+            "da": "Fjern tilknytningen af din Google-konto fra Homey. Dette gør alle Google Nest-enheder utilgængelige.",
+            "de": "Entkopple dein Google-Konto von Homey. Dadurch werden alle Google Nest-Geräte nicht verfügbar.",
+            "es": "Desvincula tu cuenta de Google de Homey. Esto hace que todos los dispositivos Google Nest no estén disponibles.",
+            "fr": "Dissociez votre compte Google de Homey. Cela rend tous les appareils Google Nest indisponibles.",
+            "it": "Scollega il tuo account Google da Homey. Questo rende tutti i dispositivi Google Nest non disponibili.",
+            "no": "Koble fra Google-kontoen din fra Homey. Dette gjør alle Google Nest-enheter utilgjengelige.",
+            "sv": "Koppla bort ditt Google-konto från Homey. Detta gör alla Google Nest-enheter otillgängliga.",
+            "pl": "Odłącz swoje konto Google od Homey. Spowoduje to, że wszystkie urządzenia Google Nest będą niedostępne.",
+            "ru": "Отсоедините свою учетную запись Google от Homey. Это сделает все устройства Google Nest недоступными.",
+            "ko": "Google 계정을 Homey에서 연결 해제하세요. 이렇게 하면 모든 Google Nest 장치가 사용할 수 없게 됩니다."
           }
         }
       },
       "name": {
-        "en": "Cam"
+        "en": "Cam",
+        "nl": "Cam",
+        "da": "Cam",
+        "de": "Cam",
+        "es": "Cam",
+        "fr": "Cam",
+        "it": "Cam",
+        "no": "Cam",
+        "sv": "Cam",
+        "pl": "Cam",
+        "ru": "Камера",
+        "ko": "카메라"
       },
       "class": "camera",
       "capabilities": [
@@ -526,15 +1088,48 @@
         "button.unlink_account": {
           "maintenanceAction": true,
           "title": {
-            "en": "Unlink Google Account"
+            "en": "Unlink Google Account",
+            "nl": "Google-account ontkoppelen",
+            "da": "Fjern Google-konto tilknytning",
+            "de": "Google-Konto entkoppeln",
+            "es": "Desvincular cuenta de Google",
+            "fr": "Dissocier le compte Google",
+            "it": "Scollega account Google",
+            "no": "Koble fra Google-konto",
+            "sv": "Koppla bort Google-konto",
+            "pl": "Odłącz konto Google",
+            "ru": "Отсоединить учетную запись Google",
+            "ko": "Google 계정 연결 해제"
           },
           "desc": {
-            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable."
+            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable.",
+            "nl": "Koppel je Google-account los van Homey. Dit zorgt ervoor dat alle Google Nest-apparaten niet meer beschikbaar zijn.",
+            "da": "Fjern tilknytningen af din Google-konto fra Homey. Dette gør alle Google Nest-enheder utilgængelige.",
+            "de": "Entkopple dein Google-Konto von Homey. Dadurch werden alle Google Nest-Geräte nicht verfügbar.",
+            "es": "Desvincula tu cuenta de Google de Homey. Esto hace que todos los dispositivos Google Nest no estén disponibles.",
+            "fr": "Dissociez votre compte Google de Homey. Cela rend tous les appareils Google Nest indisponibles.",
+            "it": "Scollega il tuo account Google da Homey. Questo rende tutti i dispositivi Google Nest non disponibili.",
+            "no": "Koble fra Google-kontoen din fra Homey. Dette gjør alle Google Nest-enheter utilgjengelige.",
+            "sv": "Koppla bort ditt Google-konto från Homey. Detta gör alla Google Nest-enheter otillgängliga.",
+            "pl": "Odłącz swoje konto Google od Homey. Spowoduje to, że wszystkie urządzenia Google Nest będą niedostępne.",
+            "ru": "Отсоедините свою учетную запись Google от Homey. Это сделает все устройства Google Nest недоступными.",
+            "ko": "Google 계정을 Homey에서 연결 해제하세요. 이렇게 하면 모든 Google Nest 장치가 사용할 수 없게 됩니다."
           }
         }
       },
       "name": {
-        "en": "Hub Max"
+        "en": "Hub Max",
+        "nl": "Hub Max",
+        "da": "Hub Max",
+        "de": "Hub Max",
+        "es": "Hub Max",
+        "fr": "Hub Max",
+        "it": "Hub Max",
+        "no": "Hub Max",
+        "sv": "Hub Max",
+        "pl": "Hub Max",
+        "ru": "Hub Max",
+        "ko": "Hub Max"
       },
       "class": "camera",
       "capabilities": [
@@ -585,15 +1180,48 @@
         "button.unlink_account": {
           "maintenanceAction": true,
           "title": {
-            "en": "Unlink Google Account"
+            "en": "Unlink Google Account",
+            "nl": "Google-account ontkoppelen",
+            "da": "Fjern Google-konto tilknytning",
+            "de": "Google-Konto entkoppeln",
+            "es": "Desvincular cuenta de Google",
+            "fr": "Dissocier le compte Google",
+            "it": "Scollega account Google",
+            "no": "Koble fra Google-konto",
+            "sv": "Koppla bort Google-konto",
+            "pl": "Odłącz konto Google",
+            "ru": "Отсоединить учетную запись Google",
+            "ko": "Google 계정 연결 해제"
           },
           "desc": {
-            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable."
+            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable.",
+            "nl": "Koppel je Google-account los van Homey. Dit zorgt ervoor dat alle Google Nest-apparaten niet meer beschikbaar zijn.",
+            "da": "Fjern tilknytningen af din Google-konto fra Homey. Dette gør alle Google Nest-enheder utilgængelige.",
+            "de": "Entkopple dein Google-Konto von Homey. Dadurch werden alle Google Nest-Geräte nicht verfügbar.",
+            "es": "Desvincula tu cuenta de Google de Homey. Esto hace que todos los dispositivos Google Nest no estén disponibles.",
+            "fr": "Dissociez votre compte Google de Homey. Cela rend tous les appareils Google Nest indisponibles.",
+            "it": "Scollega il tuo account Google da Homey. Questo rende tutti i dispositivi Google Nest non disponibili.",
+            "no": "Koble fra Google-kontoen din fra Homey. Dette gjør alle Google Nest-enheter utilgjengelige.",
+            "sv": "Koppla bort ditt Google-konto från Homey. Detta gör alla Google Nest-enheter otillgängliga.",
+            "pl": "Odłącz swoje konto Google od Homey. Spowoduje to, że wszystkie urządzenia Google Nest będą niedostępne.",
+            "ru": "Отсоедините свою учетную запись Google от Homey. Это сделает все устройства Google Nest недоступными.",
+            "ko": "Google 계정을 Homey에서 연결 해제하세요. 이렇게 하면 모든 Google Nest 장치가 사용할 수 없게 됩니다."
           }
         }
       },
       "name": {
-        "en": "Doorbell"
+        "en": "Doorbell",
+        "nl": "Deurbel",
+        "da": "Dørklokke",
+        "de": "Türklingel",
+        "es": "Timbre",
+        "fr": "Sonnette",
+        "it": "Campanello",
+        "no": "Ringeklokke",
+        "sv": "Dörrklocka",
+        "pl": "Dzwonek",
+        "ru": "Дверной звонок",
+        "ko": "초인종"
       },
       "class": "doorbell",
       "capabilities": [
@@ -644,25 +1272,80 @@
         "button.unlink_account": {
           "maintenanceAction": true,
           "title": {
-            "en": "Unlink Google Account"
+            "en": "Unlink Google Account",
+            "nl": "Google-account ontkoppelen",
+            "da": "Fjern Google-konto",
+            "de": "Google-Konto entkoppeln",
+            "es": "Desvincular cuenta de Google",
+            "fr": "Dissocier le compte Google",
+            "it": "Scollega account Google",
+            "no": "Koble fra Google-konto",
+            "sv": "Koppla bort Google-konto",
+            "pl": "Odłącz konto Google",
+            "ru": "Отвязать аккаунт Google",
+            "ko": "Google 계정 연결 해제"
           },
           "desc": {
-            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable."
+            "en": "Unlink your Google Account from Homey. This makes all Google Nest devices unavailable.",
+            "nl": "Ontkoppel je Google-account van Homey. Dit maakt alle Google Nest-apparaten onbeschikbaar.",
+            "da": "Fjern din Google-konto fra Homey. Dette gør alle Google Nest-enheder utilgængelige.",
+            "de": "Entkoppel dein Google-Konto von Homey. Dadurch werden alle Google Nest-Geräte unzugänglich.",
+            "es": "Desvincula tu cuenta de Google de Homey. Esto hace que todos los dispositivos Google Nest no estén disponibles.",
+            "fr": "Dissociez votre compte Google de Homey. Tous les appareils Google Nest deviennent alors indisponibles.",
+            "it": "Scollega il tuo account Google da Homey. Tutti i dispositivi Google Nest diventano non disponibili.",
+            "no": "Koble fra Google-kontoen din fra Homey. Dette gjør alle Google Nest-enheter utilgjengelige.",
+            "sv": "Koppla bort ditt Google-konto från Homey. Detta gör alla Google Nest-enheter otillgängliga.",
+            "pl": "Odłącz swoje konto Google od Homey. Spowoduje to, że wszystkie urządzenia Google Nest będą niedostępne.",
+            "ru": "Отвяжите аккаунт Google от Homey. Все устройства Google Nest станут недоступными.",
+            "ko": "Google 계정을 Homey에서 해제하세요. 이로 인해 모든 Google Nest 기기가 사용할 수 없게 됩니다."
           }
         },
         "target_temperature": {
           "title": {
-            "en": "Heat Temperature"
+            "en": "Heat Temperature",
+            "nl": "Verwarmingstemperatuur",
+            "da": "Varme Temperatur",
+            "de": "Heiztemperatur",
+            "es": "Temperatura de Calefacción",
+            "fr": "Température de Chauffage",
+            "it": "Temperatura di Riscaldamento",
+            "no": "Varme Temperatur",
+            "sv": "Värmetemperatur",
+            "pl": "Temperatura ogrzewania",
+            "ru": "Температура нагрева",
+            "ko": "난방 온도"
           }
         },
         "target_temperature.cool": {
           "title": {
-            "en": "Cool Temperature"
+            "en": "Cool Temperature",
+            "nl": "Koeltemperatuur",
+            "da": "Køl Temperatur",
+            "de": "Kühltemperatur",
+            "es": "Temperatura de Enfriamiento",
+            "fr": "Température de Refroidissement",
+            "it": "Temperatura di Raffreddamento",
+            "no": "Kjølig Temperatur",
+            "sv": "Kall Temperatur",
+            "pl": "Temperatura chłodzenia",
+            "ru": "Температура охлаждения",
+            "ko": "냉방 온도"
           }
         }
       },
       "name": {
-        "en": "Thermostat"
+        "en": "Thermostat",
+        "nl": "Thermostaat",
+        "da": "Termostat",
+        "de": "Thermostat",
+        "es": "Termostato",
+        "fr": "Thermostat",
+        "it": "Termostato",
+        "no": "Termostat",
+        "sv": "Termostat",
+        "pl": "Termostat",
+        "ru": "Термостат",
+        "ko": "온도 조절기"
       },
       "class": "thermostat",
       "capabilities": [
@@ -683,7 +1366,18 @@
       "setable": true,
       "uiComponent": "button",
       "title": {
-        "en": "Eco mode"
+        "en": "Eco mode",
+        "nl": "Eco modus",
+        "da": "Øko-tilstand",
+        "de": "Öko-Modus",
+        "es": "Modo Eco",
+        "fr": "Mode éco",
+        "it": "Modalità Eco",
+        "no": "Øko-modus",
+        "sv": "Eco-läge",
+        "pl": "Tryb Eco",
+        "ru": "Эко режим",
+        "ko": "에코 모드"
       },
       "icon": "/assets/icons/nest_thermostat_eco.svg"
     },
@@ -693,26 +1387,70 @@
       "getable": true,
       "setable": false,
       "title": {
-        "en": "HVAC"
+        "en": "HVAC",
+        "nl": "HVAC",
+        "da": "HVAC",
+        "de": "HVAC",
+        "es": "HVAC",
+        "fr": "HVAC",
+        "it": "HVAC",
+        "no": "HVAC",
+        "sv": "HVAC",
+        "pl": "HVAC",
+        "ru": "HVAC",
+        "ko": "HVAC"
       },
       "icon": "/assets/icons/nest_thermostat_hvac.svg",
       "values": [
         {
           "id": "off",
           "title": {
-            "en": "Off"
+            "en": "Off",
+            "nl": "Uit",
+            "da": "Fra",
+            "de": "Aus",
+            "es": "Apagado",
+            "fr": "Éteint",
+            "it": "Spento",
+            "no": "Av",
+            "sv": "Av",
+            "pl": "Wyłączony",
+            "ru": "Выкл",
+            "ko": "끔"
           }
         },
         {
           "id": "heating",
           "title": {
-            "en": "Heating"
+            "en": "Heating",
+            "nl": "Verwarmen",
+            "da": "Opvarmning",
+            "de": "Heizung",
+            "es": "Calefacción",
+            "fr": "Chauffage",
+            "it": "Riscaldamento",
+            "no": "Oppvarming",
+            "sv": "Uppvärmning",
+            "pl": "Ogrzewanie",
+            "ru": "Нагрев",
+            "ko": "난방"
           }
         },
         {
           "id": "cooling",
           "title": {
-            "en": "Cooling"
+            "en": "Cooling",
+            "nl": "Koelen",
+            "da": "Afkøling",
+            "de": "Kühlung",
+            "es": "Refrigeración",
+            "fr": "Refroidissement",
+            "it": "Raffreddamento",
+            "no": "Kjøling",
+            "sv": "Kylning",
+            "pl": "Chłodzenie",
+            "ru": "Охлаждение",
+            "ko": "냉방"
           }
         }
       ]
@@ -722,31 +1460,86 @@
       "getable": true,
       "setable": true,
       "title": {
-        "en": "Thermostat Mode"
+        "en": "Thermostat Mode",
+        "nl": "Thermostaat Modus",
+        "da": "Termostattilstand",
+        "de": "Thermostatmodus",
+        "es": "Modo Termostato",
+        "fr": "Mode Thermostat",
+        "it": "Modalità Termostato",
+        "no": "Termostatmodus",
+        "sv": "Termostatläge",
+        "pl": "Tryb Termostatu",
+        "ru": "Режим Термостата",
+        "ko": "온도조절기 모드"
       },
       "values": [
         {
           "id": "off",
           "title": {
-            "en": "Off"
+            "en": "Off",
+            "nl": "Uit",
+            "da": "Fra",
+            "de": "Aus",
+            "es": "Apagado",
+            "fr": "Éteint",
+            "it": "Spento",
+            "no": "Av",
+            "sv": "Av",
+            "pl": "Wył.",
+            "ru": "Выкл.",
+            "ko": "끄기"
           }
         },
         {
           "id": "heat",
           "title": {
-            "en": "Heat"
+            "en": "Heat",
+            "nl": "Verwarmen",
+            "da": "Varme",
+            "de": "Heizen",
+            "es": "Calentar",
+            "fr": "Chauffer",
+            "it": "Riscalda",
+            "no": "Varme",
+            "sv": "Värme",
+            "pl": "Ogrzewanie",
+            "ru": "Нагрев",
+            "ko": "난방"
           }
         },
         {
           "id": "cool",
           "title": {
-            "en": "Cool"
+            "en": "Cool",
+            "nl": "Koelen",
+            "da": "Køle",
+            "de": "Kühlen",
+            "es": "Enfriar",
+            "fr": "Refroidir",
+            "it": "Raffredda",
+            "no": "Kjøle",
+            "sv": "Kyla",
+            "pl": "Chłodzenie",
+            "ru": "Охлаждение",
+            "ko": "냉방"
           }
         },
         {
           "id": "heatcool",
           "title": {
-            "en": "Heat + Cool"
+            "en": "Heat + Cool",
+            "nl": "Verwarmen + Koelen",
+            "da": "Varme + Køle",
+            "de": "Heizen + Kühlen",
+            "es": "Calor + Frío",
+            "fr": "Chauffage + Refroidissement",
+            "it": "Riscalda + Raffredda",
+            "no": "Varme + Kjøle",
+            "sv": "Värme + Kyla",
+            "pl": "Ogrzewanie + Chłodzenie",
+            "ru": "Нагрев + Охлаждение",
+            "ko": "난방 + 냉방"
           }
         }
       ]

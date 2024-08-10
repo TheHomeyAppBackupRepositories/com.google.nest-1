@@ -1,0 +1,8 @@
+{
+  "pair": {
+    "signin": "For at fortsætte, skal du logge ind med din Google-konto."
+  },
+  "thermostat": {
+    "mode_not_supported": "Termostaten understøtter ikke denne tilstand."
+  }
+}

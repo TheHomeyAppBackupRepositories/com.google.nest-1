@@ -1,0 +1,8 @@
+{
+  "pair": {
+    "signin": "Pour continuer, veuillez vous connecter avec votre compte Google."
+  },
+  "thermostat": {
+    "mode_not_supported": "Le thermostat ne prend pas en charge ce mode."
+  }
+}
